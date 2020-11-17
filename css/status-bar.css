@@ -13,6 +13,9 @@
   display: flex;
   justify-content: center;
 }
+.status-bar__column .fa-lock {
+  margin-right: 10px;
+}
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
