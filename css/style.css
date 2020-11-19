@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+
 @import "reset.css"; /* 브라우저 스타일 설정 초기화 */
-@import "status-bar.css";
-@import "welcome-header.css";
 @import "variables.css";
-@import "login-form.css";
+@import "welcome-header.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login-form.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
