@@ -11,16 +11,16 @@
       <div class="status-bar__column">
         <!--Block Element Modify-->
         <span>No Service</span>
-        <i class="fas fa-wifi"></i>
+        <i class="fas fa-wifi fa-xs"></i>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__column fa-xs">
         <span>18:43</span>
       </div>
-      <div class="status-bar__column">
+      <div class="status-bar__column fa-xs">
         <i class="fas fa-lock"></i>
         <span>70%</span>
         <i class="fas fa-battery-three-quarters fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+        <i class="fas fa-bolt fa-xs"></i>
       </div>
     </div>
     <nav class="nav">
@@ -45,6 +45,58 @@
         </li>
       </ul>
     </nav>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <a id="friends-display-link"
+      ><i class="fas fa-info-circle fa-lg"></i>Friends' Names Dispaly<i
+        class="fas fa-chevron-right fa-xs"
+      ></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="screenshots/suzi.jpg"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">David Kim</h4>
+            <!--  <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screeen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="screenshots/suzi.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title-not_bold">
+                Channel
+              </h4>
+              <!--  <h6 class="user-component__subtitle">this text whatever</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/65b68b31bd.js"
       crossorigin="anonymous"

@@ -4,7 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   background-color: #f9f9fa;
-  padding: 20px 40px;
+  padding: 10px 40px;
   border-top: 1px solid rgba(238, 229, 229, 0.877);
 }
 
@@ -42,5 +42,4 @@
   border-radius: 50%;
   background-color: tomato;
   left: 30px;
-  top: -5px;
 }

@@ -2,16 +2,19 @@
 
 @import "reset.css"; /* 브라우저 스타일 설정 초기화 */
 @import "variables.css";
-@import "welcome-header.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login-form.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+  color: #222f33;
 }
